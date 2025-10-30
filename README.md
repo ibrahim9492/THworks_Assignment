@@ -1,4 +1,4 @@
-## About the Project
+## Task Tracker with Smart Insights
 
 This is the **frontend client** application for the THWORKS system — a productivity/tracking web-app which helps users 
 
