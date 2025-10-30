@@ -1,0 +1,158 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbf6f2; 
+  color: #4a3b31;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 30px auto;
+  padding: 28px;
+  background-color: #fff7f1; 
+  border-radius: 10px;
+  border: 1px solid #e6d8cd; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e6d8cd;
+}
+
+header h1 {
+  font-size: 1.7rem;
+  color: #3c2e24;
+}
+
+main {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.left-panel {
+  flex: 1;
+}
+
+.right-panel {
+  flex: 2;
+}
+
+button {
+  background-color: #a67063;
+  color: #fff;
+  border: 1px solid #985a50; 
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #8b574c;
+  border-color: #7f4e46;
+}
+
+.auth-box,
+.form-box,
+.insights,
+.task-list {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff4ef; 
+  border: 1px solid #e6d8cd; 
+  border-radius: 8px;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  margin: 6px 0 12px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d8c6b7;
+  background-color: #fffaf5;
+  font-size: 0.95rem;
+  color: #4a3b31;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #a67063; 
+  outline: none;
+}
+
+
+h3 {
+  margin-top: 0;
+  color: #3c2e24;
+}
+
+h4 {
+  margin: 0;
+  color: #5a4435;
+}
+
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 14px;
+  margin-bottom: 12px;
+  background-color: #fff6f0;
+  border: 1px solid #e6d8cd; 
+  border-radius: 7px;
+}
+
+.task-list li h4 {
+  margin-bottom: 5px;
+}
+
+.task-list li p {
+  margin: 3px 0;
+}
+
+.task-list select {
+  width: auto;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.filters select {
+  width: auto;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #d8c6b7; 
+  background-color: #fffaf5;
+}
+
+
+.error {
+  color: #b03a2e; 
+  font-size: 0.88rem;
+  margin-top: -4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
