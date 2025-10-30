@@ -6,9 +6,7 @@ manage tasks, habits, priorities and view insights.
 
 The app is a Single-Page Application (SPA) using React and modern CSS, designed for clean UI and efficient state management.
 
-The frontend interacts with a backend API (for example at `http://localhost:3000/api`) which handles user authentication, 
-
-task/habit management and insights.
+The frontend interacts with a backend API (for example at `http://localhost:3000/api`) which handles user authentication task/habit management and insights.
 
 ---
 
